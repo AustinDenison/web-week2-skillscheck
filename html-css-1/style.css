@@ -1,0 +1,119 @@
+nav {
+    width: 100vw;
+    height: 80px;
+    background: grey;
+    color: white; 
+}
+
+.logo {
+    width: 100px;
+    height: 20px;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+}
+
+ul {
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+}
+
+h1 {
+    width: 100vw;
+    height: 30vh;
+    color: yellow;
+    background: black;
+    text-align: center;
+    position: absolute;
+    top: 54px;
+    font-size: 50px
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.triBox {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 350px;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background: turquoise;
+    border-radius: 25px;
+}
+
+.box2{
+    width: 300px;
+    height: 300px;
+    background: turquoise;
+    border-radius: 25px;
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+    background: turquoise;
+    border-radius: 25px;
+}
+
+.twoRec {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 750px;
+}
+
+.rec1 {
+    width: 500px;
+    height: 300px;
+    background: goldenrod;
+}
+
+.rec2 {
+    width: 500px;
+    height: 300px;
+    background: goldenrod;
+}
+
+.text-img {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 1100px
+}
+
+p {
+    width: 400px;
+}
+
+img {
+    width: 300px;
+}
+
+footer {
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    top: 1350px;
+    background: rgb(48, 48, 112);
+}
